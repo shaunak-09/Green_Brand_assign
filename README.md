@@ -1,4 +1,4 @@
-# Open AI Messagin App
+# Open AI Messaging App
 
 Clone the repository:
    ```bash
