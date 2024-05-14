@@ -28,8 +28,8 @@ This is the backend directory for the project.
 
    ```makefile
    MONGODB_URI=
-    Port=8080
-    API_KEY=
+   PORT=8080
+   API_KEY=
    ```
 
    
