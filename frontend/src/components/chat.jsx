@@ -23,12 +23,12 @@ function Chat() {
     }
     , [])
     const handleSubmit = async () => {
-        setMessageList([...messageList, { author: user.name, message: message }]);
+        setMessageList([...messageList, { author: user.username, message: message }]);
         setMessage("");
         console.log(message);
         const result=await axios.post(`${server}/chat/`,
         {
-            author:user.name,
+            author:user.username,
             message:message
         })
       console.log(result);
